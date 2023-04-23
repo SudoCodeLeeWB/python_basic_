@@ -4,7 +4,7 @@
 # Package import =>
 #Data Types files
 import data_type
-# import control_flow
+import control_flow
 
 files_dict = {
 
@@ -18,8 +18,8 @@ files_dict = {
   "Py_tuple": data_type.Py_tuple(),
 
   #files from ControlFlow
-  # "py_if",
-  # "py_while"
+  "Py_if": control_flow.Py_if(),
+  "Py_while": control_flow.Py_while()
 }
 
 # match the input data and show the coressponding obj(module)
