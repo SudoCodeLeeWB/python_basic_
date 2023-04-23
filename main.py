@@ -19,7 +19,8 @@ files_dict = {
 
   #files from ControlFlow
   "Py_if": control_flow.Py_if(),
-  "Py_while": control_flow.Py_while()
+  "Py_while": control_flow.Py_while(),
+  "Py_for": control_flow.Py_for()
 }
 
 # match the input data and show the coressponding obj(module)
